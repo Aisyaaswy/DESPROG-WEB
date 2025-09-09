@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    background: url(img/gambarTugas.webp)
+}
+
+.kolom-utama {
+    flex: 2;
+    order: 2;
+}
+
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+}
